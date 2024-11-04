@@ -247,7 +247,6 @@ class NeuralNet:
             losses = []
             accuracies = []
 
-        self.set_hyperparameters(learning_rate)
         iteration = 1
         for epoch in range(epochs):
             for batch_X, batch_y in self._generate_minibatches(X, y, batch_size):

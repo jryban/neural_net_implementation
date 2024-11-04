@@ -20,7 +20,7 @@ if __name__ == '__main__':
     X_train, X_validation, y_train, y_validation = train_test_split(X, y, test_size=0.2, random_state=1)
 
     # one hot encoding train data
-    one_hot_encoder = OneHotEncoder(sparse=False)
+    one_hot_encoder = OneHotEncoder(sparse_output=False)
     encoded = y_train.reshape(len(y_train), 1)
     y_train = one_hot_encoder.fit_transform(encoded)
 
