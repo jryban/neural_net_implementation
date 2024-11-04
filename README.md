@@ -90,7 +90,7 @@ Visualizations of training loss and validation accuracy are saved as "loss.png" 
 
 
 ## Conclusion
-This framework provides a basic yet powerful tool for understanding and experimenting with neural networks. The exaple provided in `neural_net_test.py` above $98\%$ Test Accuracy on MNIST Datset with about a minute of training on a CPU.
+This framework provides a basic yet powerful tool for understanding and experimenting with neural networks. The exaple provided in `neural_net_test.py` above **98%** Test Accuracy on MNIST Datset with about a minute of training on a CPU.
 
 ---
 
